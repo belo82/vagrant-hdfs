@@ -1,0 +1,7 @@
+
+# set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+# set HADOOP_HOME and include hadoop's bin directories in the PATH
+HADOOP_HOME="/usr/local/hadoop-2.7.3"
+PATH="$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin"
